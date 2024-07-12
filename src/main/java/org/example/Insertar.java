@@ -37,8 +37,8 @@ public class Insertar {
                     pd.setNombre(nom2.getText());
                     pd.setDescripcion(desc2.getText());
                     pd.setPrecio(Double.parseDouble(precio2.getText()));
-                    pd.setCantidad(Integer.parseInt(cat2.getText()));
-                    pd.setCategoria(cant2.getText());
+                    pd.setCantidad(Integer.parseInt(cant2.getText()));
+                    pd.setCategoria(cat2.getText());
 
                     ps.setString(1, pd.getCodigo_producto());
                     ps.setString(2, pd.getNombre());
